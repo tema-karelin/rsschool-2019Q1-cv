@@ -1,30 +1,63 @@
-Artem Karelin
+# ***Artem Karelin***
 
 
-Contacts:
+### Contacts:
 
-+375291064039
-+375333888636
-temi41995@gmail.com
+1. +375291064039
+2. temi41995@gmail.com
 
-
-Summary:
+### Summary:
 
 The application of knowledge and skills acquired at the university, the acquisition of experience in a successful company, the development of intellectual potential.
 
 
-Skills:
+### Skills:
 
 
-Programming skills: SQL, JavaScript, Git
+#### Programming skills: 
+*SQL
+*JavaScript
+*Git
 
 
-Other: experienced user PC, MS Office, SolidWorks, AutoCad, KOMPAS-3D
+#### Other: experienced user PC, MS Office, SolidWorks, AutoCad, KOMPAS-3D
 
 
-Expierensce: WEB development with using HTML, CSS, JavaScript
+### Expierensce:   
 
+#### WEB development with using HTML, CSS, JavaScript
 
+* **HTML sample code:**  
+```html
+<div class="box a">
+          <img  src="https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/project-iii/media/pexels-big.jpg">
+        </div>
+        <div class="box b title">
+          Repurposed Living
+        </div>
+        <div class="box c">
+          Bassicarella Architectes, Hamburg, Germany Repurposed Housing
+        </div>
+```
+* **CSS sample code:**  
+```css
+.headLine {
+  margin-top: 5vh;
+  height: 20vh;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 120%;
+  margin-bottom: 10vh;
+}
+
+.box {
+  font-family: 'Roboto Slab', serif;
+  font-size: 90%;
+}
+```
+* **JavaScript sample code:**  
+```javascript
 function pow(x, n) {
   if (n != 1) { // пока n != 1, сводить вычисление pow(x,n) к pow(x,n-1)
     return x * pow(x, n - 1);
@@ -32,17 +65,19 @@ function pow(x, n) {
     return x;
   }
 }
-
+```
 alert( pow(2, 3) );
 
 
-Aducation:
+### Aducation:
 
-Belarusian National Technical University, faculty Power Plant Construction And Engineering Services, specialization: shipbuilding; 
+- Belarusian National Technical University, faculty Power Plant Construction And Engineering Services, specialization: shipbuilding; 
+- Courses: 
 
-Courses: HTML (CodeCademy);
-CSS (CodeCademy);
-SQL (CodeCademy);
+   - HTML (CodeCademy);
+   - CSS (CodeCademy);
+   - SQL (CodeCademy);
 
 
-English level: pre-intermediate.
+### English level: 
+*pre-intermediate*
