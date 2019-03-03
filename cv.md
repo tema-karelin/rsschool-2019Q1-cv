@@ -4,7 +4,7 @@
 ### Contacts:
 
 1. +375291064039
-2. temi41995@gmail.com
+2.  e-mail: temi41995@gmail.com
 
 ### Summary:
 
@@ -15,9 +15,9 @@ The application of knowledge and skills acquired at the university, the acquisit
 
 
 #### Programming skills: 
-*SQL
-*JavaScript
-*Git
+* SQL
+* JavaScript
+* Git
 
 
 #### Other: experienced user PC, MS Office, SolidWorks, AutoCad, KOMPAS-3D
