@@ -23,7 +23,7 @@ header {
 }
 header a {
     text-decoration: none;
-    color: rgb(236, 211, 243);
+    color: rgb(50, 117, 23);
 }
 div.image {
     height: 250px;
@@ -38,13 +38,13 @@ div.Artem {
 }
 .title {
     height: 50px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 5px 20px;
     line-height: 50px;    
     margin: 10px 0 0px auto;
 }
 .title:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.7);
 }
 header h1 {
     width: 100%;
@@ -59,11 +59,11 @@ header h3 {
 }
 header p {
     width: 70%;
-    font-weight: 300;
+    font-weight: 400;
     text-indent: 15px;
 }
 header p span {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 
@@ -434,7 +434,7 @@ footer a {
 }
 footer p {
     font-family: "Josefin Sans";
-    color: rgb(236, 211, 243);
+    color: rgb(195, 195, 195);
 }
 div.target-text {
     position: relative;
@@ -475,10 +475,10 @@ div.target-text {
     font-weight: 300;
 }
 footer a:hover [class^=icon] {
-    color: pink;
+    color: rgb(175, 49, 201);
 }
 footer a:hover .ref {
-    color: pink;
+    color: rgb(145, 74, 27);
 }
 footer a:visited .ref {
     color: yellow;
