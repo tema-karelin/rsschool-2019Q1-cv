@@ -94,8 +94,12 @@ main {
     font-family: "Josefin Sans";
     font-size: 16px;
     font-weight: 300;
-    color: white;
+    color: rgb(211, 255, 191);
     line-height: 1.2em;
+}
+.row.bag p {
+    font-weight: 400;
+    color: rgb(207, 234, 195);
 }
 .row .left p {
     text-align: right;
@@ -147,10 +151,10 @@ main {
 .row:nth-child(n+12) p {margin: 3px 0 0 10px;}
 .row:nth-child(12) p {margin-left: 75px; font-weight: 600; font-style: italic;}
 .row:nth-child(12) {background: rgb(88, 119, 101);}
-.row:nth-child(13) {background: -webkit-linear-gradient(left, rgb(39, 97, 49), rgb(39, 97, 49) 65%, orange 70%, rgb(88, 119, 101) 75%, rgb(88, 119, 101));}
-.row:nth-child(14) {background: -webkit-linear-gradient(left, rgb(39, 97, 49), rgb(39, 97, 49) 55%, orange 60%, rgb(88, 119, 101) 65%, rgb(88, 119, 101));}
-.row:nth-child(15) {background: -webkit-linear-gradient(left, rgb(39, 97, 49), rgb(39, 97, 49) 25%, orange 30%, rgb(88, 119, 101) 35%, rgb(88, 119, 101));}
-.row:nth-child(16) {background: -webkit-linear-gradient(left, rgb(39, 97, 49), rgb(39, 97, 49) 65%, orange 70%, rgb(88, 119, 101) 75%, rgb(88, 119, 101));}
+.row:nth-child(13) {background: -webkit-linear-gradient(left, rgb(39, 97, 49), rgb(39, 97, 49) 65%, rgb(163, 107, 1) 70%, rgb(88, 119, 101) 75%, rgb(88, 119, 101));}
+.row:nth-child(14) {background: -webkit-linear-gradient(left, rgb(39, 97, 49), rgb(39, 97, 49) 55%, rgb(163, 107, 1) 60%, rgb(88, 119, 101) 65%, rgb(88, 119, 101));}
+.row:nth-child(15) {background: -webkit-linear-gradient(left, rgb(39, 97, 49), rgb(39, 97, 49) 25%, rgb(163, 107, 1) 30%, rgb(88, 119, 101) 35%, rgb(88, 119, 101));}
+.row:nth-child(16) {background: -webkit-linear-gradient(left, rgb(39, 97, 49), rgb(39, 97, 49) 65%, rgb(163, 107, 1) 70%, rgb(88, 119, 101) 75%, rgb(88, 119, 101));}
 main .row .inline-block {
     width: 49%;
     height: 100%;
@@ -434,7 +438,7 @@ footer a {
 }
 footer p {
     font-family: "Josefin Sans";
-    color: rgb(195, 195, 195);
+    color: rgb(210, 230, 255);
 }
 div.target-text {
     position: relative;
@@ -462,15 +466,15 @@ div.target-text {
 }
 .author {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     width: 100%;
     bottom: 0;
     background-color: rgb(109, 92, 55);
 }
 .author p {
-    position: absolute;
-    left: 50px;
-    top: 20px;
     font-size: 12px;
     font-weight: 300;
 }
