@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: -webkit-linear-gradient( top, rgb(167, 139, 78), rgb(167, 139, 78) 75%, rgb(255, 212, 132));
+    background: -webkit-linear-gradient( top, rgb(185, 242, 255), rgb(33, 64, 86) 75%, rgb(255, 212, 132));
     font-family: "Josefin Sans";
 }
 header a {
@@ -72,7 +72,7 @@ header p span {
 
                 /* MAIN */
 main {
-    /* position: relative; */
+    position: relative;
     background-color: rgb(255, 212, 132);
     display: flex;
     justify-content: center;
@@ -82,13 +82,11 @@ main {
     flex-direction: column;
     align-items: center;
     width: 600px;
-    background: white;
 }
 .row {
     display: flex;
     justify-content: space-between;
     height: 50px;
-    background: green;
     margin: 0 0 5px 0;
     font-size: 0px;
 }
@@ -108,38 +106,38 @@ main {
     text-align: left;
     margin: 7px 0 0 5px;
 }
-.row:nth-child(1) {width: 325px; height: 30px; border-radius: 40% / 50px 50px 0 0;}
-.row:nth-child(2) {width: 426px; border-radius: 50px 50px 0 0;}
+.row:nth-child(1) {width: 325px; height: 30px; border-radius: 40% / 50px 50px 0 0; background: rgb(228, 241, 32);}
+.row:nth-child(2) {width: 426px; border-radius: 50px 50px 0 0; background: -webkit-linear-gradient(top, rgb(228, 241, 32), rgba(224, 77, 77, 1));}
 .row:nth-child(2) p {margin: 12px 0 0 165px; font-weight: 600; font-size: 20px; font-style: italic;}
 .row:nth-child(3) {width: 500px; border-radius: 50px 50px 0 0;}
-.row:nth-child(3) .left {border-radius: 50px 0px 0 0;}
-.row:nth-child(3) .right {border-radius: 0px 50px 0 0;}
+.row:nth-child(3) .left {border-radius: 50px 0px 0 0; background: -webkit-linear-gradient(top, rgba(224, 77, 77, 1), rgba(225, 87, 52, 1));}
+.row:nth-child(3) .right {border-radius: 0px 50px 0 0; background: -webkit-linear-gradient(top, rgba(224, 77, 77, 1), rgba(225, 87, 52, 1));}
 .row:nth-child(4) {width: 525px; border-radius: 14px / 50% ;}
-.row:nth-child(4) .left {border-radius: 14px 0 0 14px/ 50%;}
-.row:nth-child(4) .right {border-radius: 0 14px 14px 0/ 50%;}
+.row:nth-child(4) .left {border-radius: 14px 0 0 14px/ 50%; background: -webkit-linear-gradient(top, rgba(225, 87, 52, 1), rgba(226, 95, 31, 1));}
+.row:nth-child(4) .right {border-radius: 0 14px 14px 0/ 50%; background: -webkit-linear-gradient(top, rgba(225, 87, 52, 1), rgba(226, 95, 31, 1));}
 .row:nth-child(5) {width: 500px; border-radius: 30px /0 0 50px 50px;}
-.row:nth-child(5) .left {border-radius: 30px /0 0 0 50px;}
-.row:nth-child(5) .right {border-radius: 30px /0 0 50px 0;}
+.row:nth-child(5) .left {border-radius: 30px /0 0 0 50px; background: -webkit-linear-gradient(top, rgba(226, 95, 31, 1), rgba(228, 107, 4, 1));}
+.row:nth-child(5) .right {border-radius: 30px /0 0 50px 0; background: -webkit-linear-gradient(top, rgba(226, 95, 31, 1), rgba(228, 107, 4, 1));}
 
 .row:nth-child(6) {width: 450px; border-radius: 30px /0 0 50px 50px;}
-.row:nth-child(6) .left {border-radius: 30px /0 0 0 50px;}
-.row:nth-child(6) .right {border-radius: 30px /0 0 50px 0;}
+.row:nth-child(6) .left {border-radius: 30px /0 0 0 50px; background: -webkit-linear-gradient(top, rgba(228, 107, 4, 1), rgb(191, 74, 90));}
+.row:nth-child(6) .right {border-radius: 30px /0 0 50px 0; background: -webkit-linear-gradient(top, rgba(228, 107, 4, 1), rgb(191, 74, 90));}
 
 .row:nth-child(7) {width: 400px; border-radius: 30px /0 0 50px 50px;}
-.row:nth-child(7) .left {border-radius: 30px /0 0 0 50px;}
-.row:nth-child(7) .right {border-radius: 30px /0 0 50px 0;}
+.row:nth-child(7) .left {border-radius: 30px /0 0 0 50px; background: -webkit-linear-gradient(top, rgb(191, 74, 90), rgb(163, 53, 104));}
+.row:nth-child(7) .right {border-radius: 30px /0 0 50px 0; background: -webkit-linear-gradient(top, rgb(191, 74, 90), rgb(163, 53, 104));}
 .row:nth-child(7) .left p {margin: 12px 52px 0 0px; font-weight: 600; font-size: 18px; font-style: italic;}
 .row:nth-child(8) {width: 325px; border-radius: 30px /0 0 50px 50px;}
-.row:nth-child(8) .left {border-radius: 30px /0 0 0 50px;}
-.row:nth-child(8) .right {border-radius: 30px /0 0 50px 0;}
+.row:nth-child(8) .left {border-radius: 30px /0 0 0 50px; background: -webkit-linear-gradient(top, rgb(163, 53, 104), rgb(132, 30, 120));}
+.row:nth-child(8) .right {border-radius: 30px /0 0 50px 0; background: -webkit-linear-gradient(top, rgb(163, 53, 104), rgb(132, 30, 120));} 
 
 .row:nth-child(9) {width: 246px; border-radius: 30px /0 0 50px 50px;}
-.row:nth-child(9) .left {border-radius: 30px /0 0 0 50px;}
-.row:nth-child(9) .right {border-radius: 30px /0 0 50px 0;}
+.row:nth-child(9) .left {border-radius: 30px /0 0 0 50px; background: -webkit-linear-gradient(top, rgb(132, 30, 120), rgb(97, 4, 139));}
+.row:nth-child(9) .right {border-radius: 30px /0 0 50px 0; background: -webkit-linear-gradient(top, rgb(132, 30, 120), rgb(97, 4, 139));}
 
 .row:nth-child(10) {width: 175px; border-radius: 30px /0 0 50px 50px; margin-bottom: 0;}
-.row:nth-child(10) .left {border-radius: 30px /0 0 0 50px;}
-.row:nth-child(10) .right {border-radius: 30px /0 0 50px 0;}
+.row:nth-child(10) .left {border-radius: 30px /0 0 0 50px; background: rgb(97, 4, 139);}
+.row:nth-child(10) .right {border-radius: 30px /0 0 50px 0; background: rgb(97, 4, 139);}
 
 .row:nth-child(11) {width: 175px; height: auto; margin-bottom: 2px; background: none;}
 .row:nth-child(11) .left {height: 110px; width:3px; transform: rotate(11deg); background: #6d6d6d;}
@@ -148,19 +146,85 @@ main {
 .row:nth-child(n+12) {width: 200px; height: 25px; margin-bottom: 2px;}
 .row:nth-child(n+12) p {margin: 3px 0 0 10px;}
 .row:nth-child(12) p {margin-left: 75px; font-weight: 600; font-style: italic;}
-.row:nth-child(12) {background: orange;}
-.row:nth-child(13) {background: -webkit-linear-gradient(left, orange, orange 70%, red 75%, red);}
-.row:nth-child(14) {background: -webkit-linear-gradient(left, orange, orange 70%, red 75%, red);}
-.row:nth-child(15) {background: -webkit-linear-gradient(left, orange, orange 70%, red 75%, red);}
-.row:nth-child(16) {background: -webkit-linear-gradient(left, orange, orange 70%, red 75%, red);}
-
-
+.row:nth-child(12) {background: rgb(88, 119, 101);}
+.row:nth-child(13) {background: -webkit-linear-gradient(left, rgb(39, 97, 49), rgb(39, 97, 49) 65%, orange 70%, rgb(88, 119, 101) 75%, rgb(88, 119, 101));}
+.row:nth-child(14) {background: -webkit-linear-gradient(left, rgb(39, 97, 49), rgb(39, 97, 49) 55%, orange 60%, rgb(88, 119, 101) 65%, rgb(88, 119, 101));}
+.row:nth-child(15) {background: -webkit-linear-gradient(left, rgb(39, 97, 49), rgb(39, 97, 49) 25%, orange 30%, rgb(88, 119, 101) 35%, rgb(88, 119, 101));}
+.row:nth-child(16) {background: -webkit-linear-gradient(left, rgb(39, 97, 49), rgb(39, 97, 49) 65%, orange 70%, rgb(88, 119, 101) 75%, rgb(88, 119, 101));}
 main .row .inline-block {
     width: 49%;
     height: 100%;
     display: inline-block;
     background: rgba(39, 167, 71, 0.5);
 }
+
+.table {
+    position: absolute;
+    right: 50px;
+    bottom: 95px;
+    font-family: "Indie Flower";
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+.table p span {
+    margin-left: 20px;
+}
+.stick {
+    position: absolute;
+    left: 75px;
+    top: 30px;
+    width: 15px;
+    height: 400px;
+    background: #7b450d;
+    border-radius: 5px;
+}
+.expierence {
+    width: 170px;
+    height: 70px;
+    border-radius: 10px/30%;
+    background: #7b450d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-10deg);
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-decoration: underline;
+}
+.cursor {
+    display: flex;
+    align-items: center;
+    transform: rotate(-15deg);
+    transition: all .1s ease-in-out;
+}
+.cursor:hover {
+    transform: rotate(-10deg);
+}
+.docket {
+    width: 150px;
+    height: 25px;
+    background: #7b450d;
+    text-indent: 4px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 30px solid #7b450d;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    margin-left: -2px;
+}
+.left:hover {
+    transform: translate3d(-10px, 0, 0);
+}
+.right:hover {
+    transform: translate3d(10px, 0, 0);
+}
+
+
+
 
 
 
