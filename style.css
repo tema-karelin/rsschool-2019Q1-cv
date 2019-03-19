@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 1024px;
+    margin: 0 auto; 
+}
+.inline-block {
+    display: inline-block;
+}
+
+
+                /* HEADER */
+header {
+    /* position: relative; */
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: -webkit-linear-gradient( top, rgb(167, 139, 78), rgb(167, 139, 78) 75%, rgb(255, 212, 132));
+    font-family: "Josefin Sans";
+}
+header a {
+    text-decoration: none;
+    color: rgb(236, 211, 243);
+}
+div.image {
+    height: 250px;
+    width: 200px;
+    background: url(./assets/morda.jpg);
+    background-size: 250px;
+    background-position: -23px -14px;
+    border-radius: 25%;
+}
+div.Artem {  
+    width: 600px;
+}
+.title {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px 20px;
+    line-height: 50px;    
+    margin: 10px 0 0px auto;
+}
+.title:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+header h1 {
+    width: 100%;
+    font-style: italic;
+    font-weight: 600;
+    text-indent: 75px;
+}
+header h3 {
+    width: 85%;
+    font-weight: 600;
+    text-indent: 75px;
+}
+header p {
+    width: 70%;
+    font-weight: 300;
+    text-indent: 15px;
+}
+header p span {
+    font-weight: 600;
+}
+
+
+
+
+
+                /* MAIN */
+main {
+    /* position: relative; */
+    background-color: rgb(255, 212, 132);
+    display: flex;
+    justify-content: center;
+}
+.tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    background: white;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background: green;
+    margin: 0 0 5px 0;
+    font-size: 0px;
+}
+.row p {
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    line-height: 1.2em;
+}
+.row .left p {
+    text-align: right;
+    margin: 7px 5px auto auto;
+}
+
+.row .right p {
+    text-align: left;
+    margin: 7px 0 0 5px;
+}
+.row:nth-child(1) {width: 325px; height: 30px; border-radius: 40% / 50px 50px 0 0;}
+.row:nth-child(2) {width: 426px; border-radius: 50px 50px 0 0;}
+.row:nth-child(2) p {margin: 12px 0 0 165px; font-weight: 600; font-size: 20px; font-style: italic;}
+.row:nth-child(3) {width: 500px; border-radius: 50px 50px 0 0;}
+.row:nth-child(3) .left {border-radius: 50px 0px 0 0;}
+.row:nth-child(3) .right {border-radius: 0px 50px 0 0;}
+.row:nth-child(4) {width: 525px; border-radius: 14px / 50% ;}
+.row:nth-child(4) .left {border-radius: 14px 0 0 14px/ 50%;}
+.row:nth-child(4) .right {border-radius: 0 14px 14px 0/ 50%;}
+.row:nth-child(5) {width: 500px; border-radius: 30px /0 0 50px 50px;}
+.row:nth-child(5) .left {border-radius: 30px /0 0 0 50px;}
+.row:nth-child(5) .right {border-radius: 30px /0 0 50px 0;}
+
+.row:nth-child(6) {width: 450px; border-radius: 30px /0 0 50px 50px;}
+.row:nth-child(6) .left {border-radius: 30px /0 0 0 50px;}
+.row:nth-child(6) .right {border-radius: 30px /0 0 50px 0;}
+
+.row:nth-child(7) {width: 400px; border-radius: 30px /0 0 50px 50px;}
+.row:nth-child(7) .left {border-radius: 30px /0 0 0 50px;}
+.row:nth-child(7) .right {border-radius: 30px /0 0 50px 0;}
+.row:nth-child(7) .left p {margin: 12px 52px 0 0px; font-weight: 600; font-size: 18px; font-style: italic;}
+.row:nth-child(8) {width: 325px; border-radius: 30px /0 0 50px 50px;}
+.row:nth-child(8) .left {border-radius: 30px /0 0 0 50px;}
+.row:nth-child(8) .right {border-radius: 30px /0 0 50px 0;}
+
+.row:nth-child(9) {width: 246px; border-radius: 30px /0 0 50px 50px;}
+.row:nth-child(9) .left {border-radius: 30px /0 0 0 50px;}
+.row:nth-child(9) .right {border-radius: 30px /0 0 50px 0;}
+
+.row:nth-child(10) {width: 175px; border-radius: 30px /0 0 50px 50px; margin-bottom: 0;}
+.row:nth-child(10) .left {border-radius: 30px /0 0 0 50px;}
+.row:nth-child(10) .right {border-radius: 30px /0 0 50px 0;}
+
+.row:nth-child(11) {width: 175px; height: auto; margin-bottom: 2px; background: none;}
+.row:nth-child(11) .left {height: 110px; width:3px; transform: rotate(11deg); background: #6d6d6d;}
+.row:nth-child(11) .right {height: 110px; width:3px; transform: rotate(-11deg); background: #6d6d6d;}
+
+.row:nth-child(n+12) {width: 200px; height: 25px; margin-bottom: 2px;}
+.row:nth-child(n+12) p {margin: 3px 0 0 10px;}
+.row:nth-child(12) p {margin-left: 75px; font-weight: 600; font-style: italic;}
+.row:nth-child(12) {background: orange;}
+.row:nth-child(13) {background: -webkit-linear-gradient(left, orange, orange 70%, red 75%, red);}
+.row:nth-child(14) {background: -webkit-linear-gradient(left, orange, orange 70%, red 75%, red);}
+.row:nth-child(15) {background: -webkit-linear-gradient(left, orange, orange 70%, red 75%, red);}
+.row:nth-child(16) {background: -webkit-linear-gradient(left, orange, orange 70%, red 75%, red);}
+
+
+main .row .inline-block {
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    background: rgba(39, 167, 71, 0.5);
+}
+
+
+
+
+
+
+                /* FOOTER */
+footer {
+    position: relative;
+    /* display: flex; */
+    height: 400px;
+    background-color: rgb(167, 139, 78);
+    /* justify-content: space-around; */
+}
+footer ul {
+    
+    list-style: none;
+    margin: 33px 0 0 20px;
+}
+
+
+footer li {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    margin: 5px 0 0 5px;
+}
+footer a {
+    position: absolute;
+    text-decoration: none;
+}
+.arrow {
+    position: relative;
+    margin-left: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.feather {
+    position: relative;
+    margin: 0 -29px 0 0;
+    bottom: 1px;
+    font-weight: 600;
+    color: rgb(0, 229, 255);
+    transition: all .2s ease-in-out;
+    z-index: 900;
+}
+.arrow-body {
+    position: relative;
+    bottom: 3px;
+    width: 90px;
+    height: 2px;
+    border: 1px rgb(125, 118, 113) solid;
+    background-color: rgb(210, 181, 49);
+    transition: all .2s ease-in-out;
+    z-index: 900;
+}
+.point {
+    position: relative;
+    font-size: 30px;
+    margin-left: -11px;
+    bottom: -3px;
+    color: rgb(125, 118, 113);
+    transition: all .2s ease-in-out;
+    z-index: 900;
+}
+.spear {
+    position: relative;
+    margin-left: -14px;
+    bottom: -1px;
+    color: rgb(125, 118, 113);
+    transition: all .2s ease-in-out;
+    z-index: 100;
+}
+.tel {
+    margin: 0 38px 0 16px;
+}
+.mail {
+    margin: 0 22px 0 10px;
+}
+.skype {
+    margin: 0px 51px 0 34px;
+}
+.git {
+    margin: 0 51px 0 39px;
+}
+.fb {
+    margin: 0 56px 0 46px;
+}
+.vk {
+    margin: 0 53px 0 44px;
+}
+.home {
+    margin: 0 -3px 0 0;
+}
+ 
+
+
+
+
+
+footer li:nth-child(1) a:hover .feather, footer li:nth-child(1) a:hover .arrow-body, footer li:nth-child(1) a:hover .point, footer li:nth-child(1) a:hover .spear {
+    transform: translate3d(250px, 0px, 0px);
+}
+footer li:nth-child(2) a:hover .feather, footer li:nth-child(2) a:hover .arrow-body, footer li:nth-child(2) a:hover .point, footer li:nth-child(2) a:hover .spear {
+    transform: translate3d(290px, 0px, 0px);
+}
+footer li:nth-child(3) a:hover .feather, footer li:nth-child(3) a:hover .arrow-body, footer li:nth-child(3) a:hover .point, footer li:nth-child(3) a:hover .spear {
+    transform: translate3d(190px, 0px, 0px);
+}
+footer li:nth-child(4) a:hover .feather, footer li:nth-child(4) a:hover .arrow-body, footer li:nth-child(4) a:hover .point, footer li:nth-child(4) a:hover .spear {
+    transform: translate3d(320px, 0px, 0px);
+}
+footer li:nth-child(5) a:hover .feather, footer li:nth-child(5) a:hover .arrow-body, footer li:nth-child(5) a:hover .point, footer li:nth-child(5) a:hover .spear {
+    transform: translate3d(230px, 0px, 0px);
+}
+footer li:nth-child(6) a:hover .feather, footer li:nth-child(6) a:hover .arrow-body, footer li:nth-child(6) a:hover .point, footer li:nth-child(6) a:hover .spear {
+    transform: translate3d(270px, 0px, 0px);
+}
+footer li:nth-child(7) a:hover .feather, footer li:nth-child(7) a:hover .arrow-body, footer li:nth-child(7) a:hover .point, footer li:nth-child(7) a:hover .spear {
+    transform: translate3d(160px, 0px, 0px);
+}
+
+
+
+
+
+/* footer a:hover span */
+footer a {
+    font-family: "Indie Flower";
+    color: rgb(223, 255, 204);
+}
+
+
+.cockshot {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    transform: rotateX(0deg) rotateY(30deg);
+    top: -100px;
+    left: 95px;
+    z-index: 500;
+    
+}
+.cockshot div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 100%; */
+    /* height: 280px;
+    width: 280px; */
+    margin: 0px 6px 0px 0px;
+    z-index: 500;
+    
+}
+.cockshot .first {
+    height: 240px;
+    width: 240px;
+    border-radius: 100%;
+    margin: 20px 0 0 15px;
+    z-index: 500;
+}
+.cockshot .second {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    z-index: 500;
+}
+
+.cockshot .third {
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    z-index: 500;
+}
+
+.cockshot .forth {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    z-index: 500;
+}
+
+.cockshot .fifth {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    z-index: 500;
+}
+
+.cockshot .sixth {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    z-index: 500;
+}
+
+
+.dark {
+    background-color: hsla(0, 59%, 41%, 1);
+}
+.bright {
+    background-color: hsl(36, 100%, 90%, 0.6);
+}
+footer p {
+    font-family: "Josefin Sans";
+    color: rgb(236, 211, 243);
+}
+div.target-text {
+    position: relative;
+    width: 300px;
+    left: 85px;
+}
+.question {
+    position: relative;
+    bottom: 75px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}
+.solve {
+    position: relative;
+    bottom: 15px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin: 0 0 0 50px;
+}
+.solve span{
+    text-decoration: underline;
+}
+.author {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(109, 92, 55);
+}
+.author p {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    font-weight: 300;
+}
+footer a:hover [class^=icon] {
+    color: pink;
+}
+footer a:hover .ref {
+    color: pink;
+}
+footer a:visited .ref {
+    color: yellow;
+}
+footer a:hover>span {
+    text-shadow: 3px 3px 3px yellowgreen;
+}
+
+
+
+
+
